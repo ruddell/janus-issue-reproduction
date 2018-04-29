@@ -1,0 +1,15 @@
+{
+  "name": "janus-websocket-disconnect-on-stream-destroy-repro",
+  "version": "1.0.0",
+  "description": "Reproduction of websocket disconnect on stream destroy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ruddell",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "1.2.1",
+    "janus-gateway-js": "0.8.1"
+  }
+}
