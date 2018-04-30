@@ -1,0 +1,49 @@
+List of Streams:
+{ streaming: 'list',
+  list: 
+   [ { id: 569,
+       description: 'RTP (h264:5000, opus:5002)',
+       type: 'live',
+       audio_age_ms: 37226,
+       video_age_ms: 37226 },
+     { id: 570,
+       description: 'RTP (h264:6000, opus:6002)',
+       type: 'live',
+       audio_age_ms: 37226,
+       video_age_ms: 37226 } ] }
+
+
+Creating Stream: 12345678
+Create Stream Response:
+{ streaming: 'created',
+  created: '12345678',
+  permanent: false,
+  stream: 
+   { id: 12345678,
+     description: 'Description here',
+     type: 'live',
+     is_private: false,
+     audio_port: 34672 } }
+
+
+List of Streams:
+{ streaming: 'list',
+  list: 
+   [ { id: 569,
+       description: 'RTP (h264:5000, opus:5002)',
+       type: 'live',
+       audio_age_ms: 37325,
+       video_age_ms: 37325 },
+     { id: 570,
+       description: 'RTP (h264:6000, opus:6002)',
+       type: 'live',
+       audio_age_ms: 37325,
+       video_age_ms: 37325 },
+     { id: 12345678,
+       description: 'Description here',
+       type: 'live',
+       audio_age_ms: 48 } ] }
+
+
+Destroying Stream: 12345678
+WebSocket forcefully closed!

@@ -57,6 +57,7 @@ janus.createConnection("id").then(function(connection) {
                 console.log("Destroy Stream Response:".green);
                 console.log(destroyResponse.getPluginData());
                 console.log("\n");
+                console.log("Stream destroyed successfully".green);
               });
             });
           });
